@@ -70,17 +70,17 @@ The implementation consists of:
    ```
    
 2. Install dependencies in CMD:
-```bash
-pip install -r requirements.txt
-```
+  ```bash
+  pip install -r requirements.txt
+  ```
 3.Configure your API key:
-Edit main.py and replace "YOUR_API_KEY" with your actual Anthropic API key
+Edit `main.py` and replace `"YOUR_API_KEY"` with your actual Anthropic API key
 
 ##### Running the Analysis
 Simply execute the main script:
-```bash
-python main.py
-```
+  ```bash
+  python main.py
+  ```
 ## 📊 How It Works
 
 The implementation uses a structured approach where:
