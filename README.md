@@ -105,12 +105,26 @@ The project is designed for easy adaptation to other complex analytical question
 
 ## 📝 Example Usage
 
-This implementation analyzes Chinese price war impacts through perspectives like:
-- Effects on Thai producers and small businesses
-- Market share displacement by cheaper Chinese alternatives
-- Need for innovation and quality improvement
-- Shifts in consumer preferences and spending patterns
-- Brand loyalty erosion for Thai products
+#### This implementation analyzes Chinese price war impacts through perspectives like:
+
+##### Domestic Market Competition
+- Price undercutting
+- Market share losses
+- Innovation and quality improvement
+
+##### Consumer Behavior
+- Demand for cheaper goods
+- Disposable income and spending patterns
+- Brand loyalty and perception
+
+### Implementation Process:
+
+1. **Root Question Exploration**: First, we submit our root question to an LLM with instructions to identify only the most relevant issues (branches) related to the impact of a Chinese price war on Thailand's economy.
+
+2. **Branch-Specific Analysis**: Each identified branch (e.g., Domestic Market Competition, Consumer Behavior) is then analyzed by an LLM with customized instructions specific to that perspective, producing detailed explanations (sub-branches) for each aspect.
+
+3. **Synthesis and Conclusion**: Finally, all sub-branch insights are compiled and processed by an LLM with summarization instructions to produce a comprehensive, integrated analysis that addresses the root question from multiple perspectives.
+   
 
 ## 🔍 Optimization Techniques
 
