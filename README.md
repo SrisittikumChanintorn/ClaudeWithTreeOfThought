@@ -19,7 +19,7 @@ The Tree of Thought (ToT) methodology follows these key steps:
 ## 📁 Project Structure
 
 ```bash
-Claude_with_TOT/
+.
 ├── pycache/
 ├── main.py                  # Main execution script
 ├── requirements.txt         # Dependencies
