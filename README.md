@@ -132,12 +132,3 @@ The project is designed for easy adaptation to other complex analytical question
 2. **Selective Branches**: Developer can manually include/exclude branches
 3. **Parameter Tuning**: Configurable model name and token limits
 4. **Structural Organization**: Clear separation of concerns between branches
-
-## 🔮 Future Enhancements
-
-- Dynamic branch generation based on initial query analysis
-- Automated branch quality evaluation
-- Interactive branch selection interface
-- Visualization of the thought tree structure
-- Support for multiple LLM providers
-- And more possibilities to explore!
