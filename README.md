@@ -33,7 +33,7 @@ The implementation consists of:
 1. **Main Script** (`main.py`):
    - Sets up API authentication with Anthropic
    - Defines the root question about Chinese price war impacts
-   - Configures model parameters (Claude-3-5-Sonnet-20240620, max tokens)
+   - Configures model parameters 
    - Creates branch and sub-branch structure
    - Processes and assembles the final response
 
