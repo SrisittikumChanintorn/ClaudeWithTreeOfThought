@@ -20,7 +20,6 @@ The Tree of Thought (ToT) methodology follows these key steps:
 
 ```bash
 .
-├── pycache/
 ├── main.py                  # Main execution script
 ├── requirements.txt         # Dependencies
 ├── tree_of_thought.py       # Core ToT implementation
@@ -55,35 +54,33 @@ The implementation consists of:
    - Developer can manually remove sub-branches with unsatisfactory responses
    - Final conclusion synthesizes all insights into a comprehensive analysis
 
-## 🚀 Installation & Usage
+## Setup 🛠️
 
-### Prerequisites
-- Python 3.11.6
-- Anthropic API Key
+1. Clone this project to your repository:
 
-### Setup
+2. Create Virtual Environment (optional but recommended)
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/Claude_with_TOT.git
-   cd Claude_with_TOT
-   ```
+3. Activate Virtual Environment (venv) or Select Python Interpreture 📦 
    
-2. Install dependencies in CMD:
-    ```bash
-    pip install -r requirements.txt
-    ```
-3.Configure your API key:
+```bash
+source venv/bin/activate  # On MacOS use this with CMD
+venv\Scripts\activate     # On Windows use this with CMD
+```
 
-  Edit `main.py` and replace `"YOUR_API_KEY"` with your actual Anthropic API key
+4. Install dependencies ⬇️
+```bash
+pip install -r requirements.txt
+```
 
-### Running the Analysis
+5. Configure API key 🔑
+   
+###### Edit `main.py` with your API key
 
-Simply execute the main script:
+6. Run the analysis ▶️
 
-   ```bash
-   python main.py
-   ```
+```bash
+python main.py
+```
     
 ## 📊 How It Works
 
