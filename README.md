@@ -73,8 +73,10 @@ pip install -r requirements.txt
 ```
 
 5. Configure API key 🔑
-   
-###### Edit `main.py` with your API key
+```bash   
+# Set the API key for Anthropic 
+CLAUDE_API_KEY = 'YOUR_API_KEY'  # Replace with your actual API key
+```
 
 6. Run the analysis ▶️
 
